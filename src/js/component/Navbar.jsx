@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 
 //import {Consumer} from "../stores/AppContext.jsx";
 
 function Navbar(props){
     return (
-        <div>
+        <div id="home">
             <header className="bg-light">
                 <div className="row py-3">
                     <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
-                        <h1 className="pl-md-3">Emily Vong</h1>
+                        <h1 className="pl-md-3"><a href="#home" className="text-dark">Emily Vong</a></h1>
                     </div>
                     <div className="col d-flex justify-content-center justify-content-md-end align-items-end">
                         <h3 className="pr-md-3">Full-Stack Web Developer</h3>
@@ -24,16 +24,16 @@ function Navbar(props){
                 <div className="collapse navbar-collapse" id="navbarToggleContainer">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active mx-3">
-                            <Link to="#projects" className="nav-link">Projects</Link>
+                            <a href="#projects" className="nav-link">Projects</a>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link to="#about" className="nav-link" href="#">About</Link>
+                            <a href="#about" className="nav-link">About</a>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link to="#contact" className="nav-link" href="#">Contact</Link>
+                            <a href="#contact" className="nav-link">Contact</a>
                         </li>
                         <li className="nav-item active mx-3">
-                            <Link to="#resume" className="nav-link" href="#">Resume</Link>{/*make this link to open/download resume in new tab*/}
+                            <a href="#" className="nav-link">Resume</a>{/*make this link to open/download resume in new tab*/}
                         </li>
                     </ul>
                 </div>
