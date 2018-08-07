@@ -3,6 +3,12 @@ import React from 'react';
 
 //include images into your bundle
 //import rigoImage from '../../img/rigo-baby.jpg';
+//import { resume } from '../../resume/emily-vong-resume-2018.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import Navbar from '../component/Navbar.jsx';
 import ProjectCard from '../component/ProjectCard.jsx';
@@ -30,8 +36,9 @@ export class Home extends React.Component{
                                 <div className="row justify-content-around my-2">
                                     <button type="button" className="btn btn-primary">Projects</button>
                                     <button type="button" className="btn btn-primary">Contact</button>
-                                    <button type="button" className="btn btn-primary">Resume</button>
+                                    <a className="btn btn-primary" role="button" type="button" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing">Resume</a>
                                 </div>
+                                <a href="#">test</a>
                             </div>
                         </div>
                     </div>
@@ -79,14 +86,14 @@ export class Home extends React.Component{
                         </div>
                         <div className="row mx-0">
                             <div className="col-12 col-sm-8 col-md-6 text-center text-md-left">
-                                <h5 className="d-block">EM emily.vong25@gmail.com</h5>
+                                <h5 className="d-block"><FontAwesomeIcon icon={faEnvelope} /> emily.vong25@gmail.com</h5>
                                 <button type="button" className="btn btn-outline-info">View/Download My Resume</button>
                             </div>
                             <div className="col">
-                                <ul className="list-inline text-center mt-4 mt-sm-0">
-                                    <li className="list-inline-item px-2 px-md-3">SM</li>
-                                    <li className="list-inline-item px-2 px-md-3">SM</li>
-                                    <li className="list-inline-item px-2 px-md-3">SM</li>
+                                <ul className="list-inline text-center text-md-right mt-4 mt-sm-0">
+                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faGithub} className="h3" /></li>
+                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faLinkedin} className="h3" /></li>
+                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faTwitter} className="h3" /></li>
                                 </ul>
                             </div>
                         </div> 
