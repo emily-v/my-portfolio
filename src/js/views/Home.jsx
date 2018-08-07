@@ -34,11 +34,10 @@ export class Home extends React.Component{
                                     </p>
                                 </div>
                                 <div className="row justify-content-around my-2">
-                                    <button type="button" className="btn btn-primary">Projects</button>
-                                    <button type="button" className="btn btn-primary">Contact</button>
-                                    <a className="btn btn-primary" role="button" type="button" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing">Resume</a>
+                                    <a className="btn btn-primary" role="button" href="#projects">Projects</a>
+                                    <a className="btn btn-primary" role="button" href="#contact">Contact</a>
+                                    <a className="btn btn-primary" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                                 </div>
-                                <a href="#">test</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +86,7 @@ export class Home extends React.Component{
                         <div className="row mx-0">
                             <div className="col-12 col-sm-8 col-md-6 text-center text-md-left">
                                 <h5 className="d-block"><FontAwesomeIcon icon={faEnvelope} /> emily.vong25@gmail.com</h5>
-                                <button type="button" className="btn btn-outline-info">View/Download My Resume</button>
+                                <a className="btn btn-outline-primary mt-3" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">View/Download My Resume</a>
                             </div>
                             <div className="col">
                                 <ul className="list-inline text-center text-md-right mt-4 mt-sm-0">
@@ -115,7 +114,9 @@ export class Home extends React.Component{
                                     <a href="#contact" className="nav-link">Contact</a>
                                 </li>
                                 <li className="nav-item active mx-3">
-                                    <a href="#" className="nav-link">Resume</a>{/*make this link to open/download resume in new tab*/}
+                                    <a href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-link">
+                                        Resume
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -125,5 +126,3 @@ export class Home extends React.Component{
         );
     }
 }
-
-//<p>Elit farm-to-table meditation williamsburg roof party. Live-edge butcher anim, neutra etsy helvetica jianbing. Salvia iPhone coasdlkjsdogihoase sadfijadasoie asiuasdf asdfids sdaf</p>

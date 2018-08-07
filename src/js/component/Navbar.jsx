@@ -33,7 +33,9 @@ function Navbar(props){
                             <a href="#contact" className="nav-link">Contact</a>
                         </li>
                         <li className="nav-item active mx-3">
-                            <a href="#" className="nav-link">Resume</a>{/*make this link to open/download resume in new tab*/}
+                            <a href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-link">
+                                Resume
+                            </a>
                         </li>
                     </ul>
                 </div>
