@@ -1,4 +1,5 @@
 import React from 'react';
+import {Consumer} from "../stores/AppContext.jsx";
 //import { Link } from "react-router-dom";
 
 //include images into your bundle
@@ -46,12 +47,24 @@ export class Home extends React.Component{
                         <div className="row mx-0">
                             <h4>My Projects</h4>
                             <div className="row">
-                                <ProjectCard />
-                                <ProjectCard />
-                                <ProjectCard />
-                                <ProjectCard />
-                                <ProjectCard />
-                                <ProjectCard />
+                                <Consumer>
+                                    {({ state }) =>
+                                        (
+                                            state.projects.map((item,index)=>{
+                                                return (
+                                                    <ProjectCard 
+                                                        key={index}
+                                                        image={item.image}
+                                                        title={item.title}
+                                                        description={item.description}
+                                                        repoUrl={item.repoUrl}
+                                                        liveUrl={item.liveUrl}
+                                                    />
+                                                );
+                                            })
+                                        )
+                                    }
+                                </Consumer>
                             </div>
                         </div>
                     </section>
