@@ -47,24 +47,26 @@ export class Home extends React.Component{
                         <div className="row mx-0">
                             <h4>My Projects</h4>
                             <div className="row">
-                                <Consumer>
-                                    {({ state }) =>
-                                        (
-                                            state.projects.map((item,index)=>{
-                                                return (
-                                                    <ProjectCard 
-                                                        key={index}
-                                                        image={item.image}
-                                                        title={item.title}
-                                                        description={item.description}
-                                                        repoUrl={item.repoUrl}
-                                                        liveUrl={item.liveUrl}
-                                                    />
-                                                );
-                                            })
-                                        )
-                                    }
-                                </Consumer>
+                                <div className="card-deck">
+                                    <Consumer>
+                                        {({ state }) =>
+                                            (
+                                                state.projects.map((item,index)=>{
+                                                    return (
+                                                        <ProjectCard 
+                                                            key={index}
+                                                            image={item.image}
+                                                            title={item.title}
+                                                            description={item.description}
+                                                            repoUrl={item.repoUrl}
+                                                            liveUrl={item.liveUrl}
+                                                        />
+                                                    );
+                                                })
+                                            )
+                                        }
+                                    </Consumer>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -85,7 +87,7 @@ export class Home extends React.Component{
                         <div className="row mx-0">
                             <h5>Education</h5>
                             <ul>
-                                <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (300+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
+                                <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
                                 <li><strong>Skillcrush E-Learning</strong>; Self-paced Break Into Tech Blueprint teaching foundations of HTML/CSS, Responsive Web Development, JavaScript and jQuery, WordPress, Git/GitHub, web domains and hosting, freelance buisness administration; <span className="text-secondary">2017-2018</span></li>
                                 <li><strong>University of Minnesota</strong>, B.S. Nutrition, <span className="text-secondary">2012</span></li>
                             </ul>
@@ -103,9 +105,9 @@ export class Home extends React.Component{
                             </div>
                             <div className="col">
                                 <ul className="list-inline text-center text-md-right mt-4 mt-sm-0">
-                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faGithub} className="h3" /></li>
-                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faLinkedin} className="h3" /></li>
-                                    <li className="list-inline-item px-2 px-md-3"><FontAwesomeIcon icon={faTwitter} className="h3" /></li>
+                                    <li className="list-inline-item px-2 px-md-3"><a href="https://github.com/emily-v" className="text-dark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="h3" /></a></li>
+                                    <li className="list-inline-item px-2 px-md-3"><a href="https://www.linkedin.com/in/emily-vong/" className="text-dark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="h3" /></a></li>
+                                    <li className="list-inline-item px-2 px-md-3"><a href="https://twitter.com/VongEmily" className="text-dark" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} className="h3" /></a></li>
                                 </ul>
                             </div>
                         </div> 
