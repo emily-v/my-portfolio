@@ -19,7 +19,7 @@ export default class Layout extends React.Component {
                     description: "Final class project with user and shopping cart functionality using Bootstrap, React.js with React Router and Context API, headless WordPress and PHP",
                     repoUrl: "https://github.com/emily-v/final-project-emily-keshaunda",
                     liveUrl: null,
-                    gifUrl: ""
+                    gifUrl: null
                 },
                 { 
                     image: "https://image.ibb.co/hWkH59/meetup_clone_home_screenshot.png",
@@ -36,7 +36,7 @@ export default class Layout extends React.Component {
                     description: "Recreated static layout and styling of mock website from Photoshop mockup using HTML and custom CSS",
                     repoUrl: "https://github.com/emily-v/unplugged-music-project",
                     liveUrl: "https://emily-v.github.io/unplugged-music-project/",
-                    gifUrl: ""
+                    gifUrl: null
                 },
                 { 
                     image: "https://preview.ibb.co/bEamXp/bootstrap_photo_feed_screenshot2.png",
@@ -44,7 +44,7 @@ export default class Layout extends React.Component {
                     description: "Recreated responsive layouts from example images using Bootstrap",
                     repoUrl: "https://github.com/emily-v/bootstrap-photo-feed",
                     liveUrl: "https://emily-v.github.io/bootstrap-photo-feed/",
-                    gifUrl: ""
+                    gifUrl: null
                 },
                 { 
                     image: "https://image.ibb.co/iikODU/to_do_app_screenshot.png",

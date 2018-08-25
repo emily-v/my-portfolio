@@ -31,7 +31,10 @@ export class Home extends React.Component{
                             <div className="col px-sm-3">
                                 <div className="row">
                                     <p className="lead pt-3 pt-md-0 px-3 px-sm-0">
-                                        <span className="h4">Greetings!</span> Lorem ipsum dolor amet activated charcoal laboris mollit mlkshk. Gastropub distillery incididunt twee paleo af nulla forage. Please view my projects and feel free to contact me with feedback, questions or interest!
+                                        <span className="h4">Greetings!</span> My name is Emily, I am a new full-stack web developer based in Miami, FL. I can quickly create prototype layouts dynamically rendering content using Bootstrap and React.js, and integrate with back-end content using WordPress and PHP.
+                                    </p>
+                                    <p className="lead px-3 px-sm-0">
+                                        Please view my projects and feel free to contact me with feedback, questions or interest!
                                     </p>
                                 </div>
                                 <div className="row justify-content-around my-2">
@@ -60,6 +63,7 @@ export class Home extends React.Component{
                                                             description={item.description}
                                                             repoUrl={item.repoUrl}
                                                             liveUrl={item.liveUrl}
+                                                            gifUrl={item.gifUrl}
                                                         />
                                                     );
                                                 })
@@ -76,12 +80,12 @@ export class Home extends React.Component{
                             <h4>About Me</h4>
                         </div>
                         <div className="row mx-0">
-                            <div className="col-md-8">
-                                <p>Lorem ipsum dolor amet vexillologist kickstarter quinoa pug echo park, pop-up kogi in in post-ironic distillery lorem chartreuse. Celiac sed dolore ennui sunt veniam in glossier typewriter ethical unicorn sint. Nulla meditation yuccie vexillologist. Ramps fixie blue bottle flannel, fam austin unicorn hella umami cupidatat. Viral photo booth non art party af. Cornhole exercitation consectetur palo santo vegan kombucha ut viral whatever marfa listicle.</p>
-                                <p>Elit farm-to-table meditation williamsburg roof party. Live-edge butcher anim, neutra etsy helvetica jianbing. Salvia iPhone consectetur aesthetic tilde coloring book culpa sriracha sartorial aliqua proident dolore ut art party cloud bread. In kale chips flannel iPhone chartreuse microdosing cornhole.</p>
+                            <div className="col-md-9 pr-md-5">
+                                <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a new web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
+                                <p>Through attending group coding sessions/events, following developers on Twitter and researching developement and tech trends over the past ~1 year I&apos;ve become familiar with the developer culture including how resources and new ideas are shared. I&apos;m eager to be a part of this community in a full time role, especially on a team of developers in a supportive, learning-based environment where I can hone my skills and grow my stack.</p>
                             </div>
                             <div className="col">
-                                <img src="http://via.placeholder.com/600x500" alt="headshot" className="img-fluid"/>
+                                <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid "/>
                             </div>
                         </div>
                         <div className="row mx-0">
@@ -141,3 +145,5 @@ export class Home extends React.Component{
         );
     }
 }
+
+/*I&apos;m a quick learner looking to work on a team of developers and grow my stack building apps meant to delight customers. Positive-minded with a background in food and health, office administration and client service. */

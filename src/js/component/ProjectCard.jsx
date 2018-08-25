@@ -24,6 +24,9 @@ function ProjectCard(props){
                         {
                             (props.liveUrl == null) ? <a></a> : <a role="button" className="btn btn-outline-info ml-auto" target="_blank" rel="noopener noreferrer" href={props.liveUrl}>view live</a>
                         }
+                        {    
+                            (props.gifUrl == null) ? <a></a> : <a role="button" className="btn btn-outline-secondary ml-auto" target="_blank" rel="noopener noreferrer" href={props.gifUrl}>view gif</a>
+                        }
                     </div>
                 </div>
             </div>
@@ -38,5 +41,6 @@ ProjectCard.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     repoUrl: PropTypes.string,
-    liveUrl: PropTypes.string
+    liveUrl: PropTypes.string,
+    gifUrl: PropTypes.string
 };
