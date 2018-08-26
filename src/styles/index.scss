@@ -12,15 +12,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.sectionWidth {
+    width:75%;
+    margin:auto;
+}
 
 header {
     background-color:#e9e7e9;
-    color:#4f3558;
+
 }
 
-header a {
-   color:#4f3558;
-}
+
 
 header a:hover {
     color:#4f3558;
@@ -50,6 +52,10 @@ nav {
 
 h4, h5 {
     color:#328284;
+}
+
+#projects, #contact {
+    background-color:#e9e7e9;
 }
 
 .projectFeaturedImage {

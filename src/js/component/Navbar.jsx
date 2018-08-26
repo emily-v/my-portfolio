@@ -8,12 +8,12 @@ function Navbar(props){
     return (
         <div id="home">
             <header>
-                <div className="row py-3">
+                <div className="sectionWidth row py-3">
                     <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
-                        <h1 className="pl-md-3"><a href="#home">Emily Vong</a></h1>
+                        <h1 className="pl-md-3"><a className="text-dark" href="#home">Emily Vong</a></h1>
                     </div>
                     <div className="col d-flex justify-content-center justify-content-md-end align-items-end">
-                        <h3 className="pr-md-3">Full-Stack Web Developer</h3>
+                        <h3 className="text-dark pr-md-3">Full-Stack Web Developer</h3>
                     </div>
                 </div>
             </header>
