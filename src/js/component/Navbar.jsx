@@ -7,17 +7,17 @@ import PropTypes from 'prop-types';
 function Navbar(props){
     return (
         <div id="home">
-            <header className="bg-light">
+            <header>
                 <div className="row py-3">
                     <div className="col-md-6 d-flex justify-content-center justify-content-md-start">
-                        <h1 className="pl-md-3"><a href="#home" className="text-dark">Emily Vong</a></h1>
+                        <h1 className="pl-md-3"><a href="#home">Emily Vong</a></h1>
                     </div>
                     <div className="col d-flex justify-content-center justify-content-md-end align-items-end">
                         <h3 className="pr-md-3">Full-Stack Web Developer</h3>
                     </div>
                 </div>
             </header>
-            <nav className="navbar navbar-expand-sm navbar-dark bg-secondary navbar-toggleable-md">
+            <nav className="navbar navbar-expand-sm navbar-dark navbar-toggleable-md">
                 <button className="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggleContainer">
                     <span className="navbar-toggler-icon"></span>
                 </button>

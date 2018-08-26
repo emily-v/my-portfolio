@@ -20,12 +20,12 @@ function ProjectCard(props){
                         {props.description}
                     </p>
                     <div className="d-flex">
-                        <a role="button" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer" href={props.repoUrl}><FontAwesomeIcon icon={faGithub} /> view code</a>
+                        <a role="button" className="btn btnCard" target="_blank" rel="noopener noreferrer" href={props.repoUrl}><FontAwesomeIcon icon={faGithub} /> view code</a>
                         {
-                            (props.liveUrl == null) ? <a></a> : <a role="button" className="btn btn-outline-info ml-auto" target="_blank" rel="noopener noreferrer" href={props.liveUrl}>view live</a>
+                            (props.liveUrl == null) ? <a></a> : <a role="button" className="btn btnCard ml-auto" target="_blank" rel="noopener noreferrer" href={props.liveUrl}>view live</a>
                         }
                         {    
-                            (props.gifUrl == null) ? <a></a> : <a role="button" className="btn btn-outline-secondary ml-auto" target="_blank" rel="noopener noreferrer" href={props.gifUrl}>view gif</a>
+                            (props.gifUrl == null) ? <a></a> : <a role="button" className="btn btnCard ml-auto" target="_blank" rel="noopener noreferrer" href={props.gifUrl}>view gif</a>
                         }
                     </div>
                 </div>

@@ -13,8 +13,77 @@
 
 */
 
+header {
+    background-color:#e9e7e9;
+    color:#4f3558;
+}
 
+header a {
+   color:#4f3558;
+}
+
+header a:hover {
+    color:#4f3558;
+    text-decoration: none;
+}
+
+nav {
+    background-color:#328284;
+    font-size: 1.25rem;
+}
+
+.jumbotron img {
+    border: 2px solid #4f3558;
+}
+
+.jumbotron span {
+    color:#328284;
+}
+
+.jumbotron .btn {
+    background-color:#4f3558;
+}
+
+.jumbotron .btn:hover{
+    background-color:#725d79;
+}
+
+h4, h5 {
+    color:#328284;
+}
 
 .projectFeaturedImage {
-    border:2px solid lightgray;
+    border:1px solid #725d79;
+}
+
+.card-body {
+    border:1px solid #909095;
+}
+
+.btnCard {
+    color:#4f3558;
+    border:1px solid #4f3558;
+}
+
+.btnCard:hover {
+    color:white;
+    border:1px solid #4f3558;
+    background-color:#4f3558;
+}
+
+
+#contact .btn {
+    color:#4f3558;
+    border:1px solid #4f3558;
+}
+
+#contact .btn:hover {
+    color:white;
+    border:1px solid #4f3558;
+    background-color:#4f3558;
+}
+
+footer {
+    background-color:#328284;
+    font-size: 1.25rem;
 }

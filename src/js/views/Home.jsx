@@ -20,13 +20,13 @@ export class Home extends React.Component{
     render(){
         return (
             <React.Fragment>
-                <div className="container">
+                <div className="container-fluid px-0">
                     <Navbar />
                     {/*-----BEGIN JUMBOTRON-----*/}
                     <div className="jumbotron ">
                         <div className="row">
-                            <div className="col-md-6 text-center">
-                                <img src="http://via.placeholder.com/600x450" alt="hero" className="img-fluid"/>
+                            <div className="col-md-6 text-center px-md-4">
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&s=4d30feeda26a687fb68098509a9a24c5&auto=format&fit=crop&w=1050&q=80" alt="hero" className="img-fluid"/>
                             </div>
                             <div className="col px-sm-3">
                                 <div className="row">
@@ -38,9 +38,9 @@ export class Home extends React.Component{
                                     </p>
                                 </div>
                                 <div className="row justify-content-around my-2">
-                                    <a className="btn btn-primary" role="button" href="#projects">Projects</a>
-                                    <a className="btn btn-primary" role="button" href="#contact">Contact</a>
-                                    <a className="btn btn-primary" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+                                    <a className="btn text-white" role="button" href="#projects">Projects</a>
+                                    <a className="btn text-white" role="button" href="#contact">Contact</a>
+                                    <a className="btn text-white" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ export class Home extends React.Component{
                             <ul>
                                 <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
                                 <li><strong>Skillcrush E-Learning</strong>; Self-paced Break Into Tech Blueprint teaching foundations of HTML/CSS, Responsive Web Development, JavaScript and jQuery, WordPress, Git/GitHub, web domains and hosting, freelance buisness administration; <span className="text-secondary">2017-2018</span></li>
-                                <li><strong>University of Minnesota</strong>, B.S. Nutrition, <span className="text-secondary">2012</span></li>
+                                <li><strong>University of Minnesota</strong>; B.S. Nutrition, <span className="text-secondary">2012</span></li>
                             </ul>
                         </div>
                     </section>
@@ -104,8 +104,8 @@ export class Home extends React.Component{
                         </div>
                         <div className="row mx-0">
                             <div className="col-12 col-sm-8 col-md-6 text-center text-md-left">
-                                <h5 className="d-block"><FontAwesomeIcon icon={faEnvelope} /> emily.vong25@gmail.com</h5>
-                                <a className="btn btn-outline-primary mt-3" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">View/Download My Resume</a>
+                                <h5 className="d-block text-dark"><FontAwesomeIcon icon={faEnvelope} /> emily.vong25@gmail.com</h5>
+                                <a className="btn mt-3" href="https://drive.google.com/file/d/1rWEQyzsUxSshGaTA6laEEfYg5NtrTbZv/view?usp=sharing" target="_blank" rel="noopener noreferrer">View/Download My Resume</a>
                             </div>
                             <div className="col">
                                 <ul className="list-inline text-center text-md-right mt-4 mt-sm-0">
@@ -118,7 +118,7 @@ export class Home extends React.Component{
                     </section>
                     {/*-----BEGIN FOOTER-----*/}
                     <footer className="mt-4">
-                        <div className="navbar navbar-expand-sm navbar-dark bg-secondary">
+                        <div className="navbar navbar-expand-sm navbar-dark">
                             <ul className="navbar-nav mx-auto text-center">
                                 <li className="nav-item active mx-3">
                                     <a href="#home" className="nav-link">Home</a>
