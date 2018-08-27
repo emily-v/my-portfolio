@@ -30,10 +30,10 @@ export class Home extends React.Component{
                             </div>
                             <div className="col px-sm-3">
                                 <div className="row">
-                                    <p className="lead pt-3 pt-md-0 px-3 px-sm-0">
+                                    <p className="introText pt-3 pt-md-0 px-3 px-sm-0">
                                         <span className="h4">Greetings!</span> My name is Emily, I am a new full-stack web developer based in Miami, FL. I can quickly create prototype layouts dynamically rendering content using Bootstrap and React.js, and integrate with back-end content using WordPress and PHP.
                                     </p>
-                                    <p className="lead px-3 px-sm-0">
+                                    <p className="introText px-3 px-sm-0">
                                         Please view my projects and feel free to contact me with feedback, questions or interest!
                                     </p>
                                 </div>
@@ -48,7 +48,7 @@ export class Home extends React.Component{
                     {/*-----BEGIN MY PROJECTS-----*/}
                     <section id="projects" className="py-4">
                         <div className="sectionWidth row">
-                            <h4 className="mb-4">My Projects</h4>
+                            <h3 className="mb-4">My Projects</h3>
                             <div className="row mx-0">
                                 <div className="card-deck no-gutters mx-0">
                                     <Consumer>
@@ -77,7 +77,7 @@ export class Home extends React.Component{
                     {/*-----BEGIN ABOUT ME-----*/}
                     <section id="about" className="py-4">
                         <div className="sectionWidth row">    
-                            <h4 className="mb-4">About Me</h4>
+                            <h3 className="mb-4">About Me</h3>
                             <div className="row mx-0">
                                 <div className="col-md-9 pr-md-5">
                                     <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a new web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
@@ -88,7 +88,7 @@ export class Home extends React.Component{
                                 </div>
                             </div>
                             <div className="row mx-0">
-                                <h5>Education</h5>
+                                <h4>Education</h4>
                                 <ul>
                                     <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
                                     <li><strong>Skillcrush E-Learning</strong>; Self-paced Break Into Tech Blueprint teaching foundations of HTML/CSS, Responsive Web Development, JavaScript and jQuery, WordPress, Git/GitHub, web domains and hosting, freelance buisness administration; <span className="text-secondary">2017-2018</span></li>
@@ -101,7 +101,7 @@ export class Home extends React.Component{
                     <section id="contact" className="py-4">
                         <div className="sectionWidth">
                             <div className="row mx-0">
-                                <h4 className="mb-4">Contact Me</h4>
+                                <h3 className="mb-4">Contact Me</h3>
                             </div>
                             <div className="row mx-0">
                                 <div className="col-12 col-sm-8 col-md-6 text-center text-md-left">

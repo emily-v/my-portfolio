@@ -20,7 +20,24 @@
 
 header {
     background-color:#e9e7e9;
+}
 
+h1, h3, h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    //font-weight:bold;
+}
+
+h3, h4 {
+    color:#328284;
+}
+
+.introText {
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.1rem;
 }
 
 header a:hover {
@@ -33,38 +50,40 @@ nav {
     font-size: 1.25rem;
 }
 
+nav li a {
+    font-family: 'Helvetica', sans-serif;
+}
+
 .jumbotron img {
     border: 2px solid #4f3558;
 }
 
 .jumbotron span {
     color:#328284;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .jumbotron .btn {
     background-color:#4f3558;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .jumbotron .btn:hover{
     background-color:#725d79;
 }
 
-h4, h5 {
-    color:#328284;
-}
-
 #projects, #contact {
     background-color:#e9e7e9;
 }
-
-/*.projectCard .col-12 {
-    flex: 0 auto !important;
-}*/
 
 .projectFeaturedImage {
     border:1px solid #725d79;
 }
 
+.projectCard h5 {
+    color:#328284;
+    font-family: 'Helvetica', sans-serif;
+}
 .card-body {
     border:1px solid #909095;
 }
@@ -72,6 +91,7 @@ h4, h5 {
 .btnCard {
     color:#4f3558;
     border:1px solid #4f3558;
+    font-family: 'Helvetica', sans-serif;
 }
 
 .btnCard:hover {
@@ -88,9 +108,14 @@ h4, h5 {
     max-width: 50%;
 }
 
+#contact h5 {
+    font-family: 'Helvetica', sans-serif;
+}
+
 #contact .btn {
     color:#4f3558;
     border:1px solid #4f3558;
+    font-family: 'Helvetica', sans-serif;
 }
 
 #contact .btn:hover {
@@ -102,6 +127,7 @@ h4, h5 {
 footer {
     background-color:#328284;
     font-size: 1.25rem;
+    font-family: 'Helvetica', sans-serif;
 }
 
 @media only screen and (min-width: 600px){

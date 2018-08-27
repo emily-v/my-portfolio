@@ -1,6 +1,8 @@
 //import react into the bundle
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import "typeface-ubuntu";
+import WebFont from 'webfontloader';
 
 //include bootstrap npm library into the bundle
 import 'bootstrap';
@@ -10,6 +12,11 @@ import '../styles/index.scss';
 
 //import your own components
 import Layout from './layout.jsx';
+WebFont.load({
+  google: {
+    families: ['Ubuntu:400,700', 'Lora:400,700', 'Rubik:400,700', 'Merriweather Sans:400,700', 'Roboto:400,700', 'sans-serif']
+  }
+});
 
 //render your react application
 ReactDOM.render(
