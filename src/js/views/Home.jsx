@@ -83,8 +83,8 @@ export class Home extends React.Component{
                                     <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a new web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
                                     <p>Through attending group coding sessions/events, following developers on Twitter and researching developement and tech trends over the past ~1 year I&apos;ve become familiar with the developer culture including how resources and new ideas are shared. I&apos;m eager to be a part of this community in a full time role, especially on a team of developers in a supportive, learning-based environment where I can hone my skills and grow my stack.</p>
                                 </div>
-                                <div className="col">
-                                    <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid "/>
+                                <div className="col text-center">
+                                    <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid"/>
                                 </div>
                             </div>
                             <div className="row mx-0">

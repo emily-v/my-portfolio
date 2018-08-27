@@ -13,7 +13,8 @@
 
 */
 .sectionWidth {
-    width:75%;
+    width: 96%;
+    max-width:1200px;
     margin:auto;
 }
 
@@ -21,8 +22,6 @@ header {
     background-color:#e9e7e9;
 
 }
-
-
 
 header a:hover {
     color:#4f3558;
@@ -58,6 +57,10 @@ h4, h5 {
     background-color:#e9e7e9;
 }
 
+/*.projectCard .col-12 {
+    flex: 0 auto !important;
+}*/
+
 .projectFeaturedImage {
     border:1px solid #725d79;
 }
@@ -77,6 +80,13 @@ h4, h5 {
     background-color:#4f3558;
 }
 
+.btnCardSmall {
+    line-height: 0.8;
+}
+
+.bioPic {
+    max-width: 50%;
+}
 
 #contact .btn {
     color:#4f3558;
@@ -92,4 +102,22 @@ h4, h5 {
 footer {
     background-color:#328284;
     font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 600px){
+    
+    .sectionWidth {
+        width: 90%;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+    .bioPic {
+        max-width: 100%;
+    }
+    
 }

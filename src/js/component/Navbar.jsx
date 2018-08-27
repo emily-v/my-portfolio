@@ -13,7 +13,7 @@ function Navbar(props){
                         <h1 className="pl-md-3"><a className="text-dark" href="#home">Emily Vong</a></h1>
                     </div>
                     <div className="col d-flex justify-content-center justify-content-md-end align-items-end">
-                        <h3 className="text-dark pr-md-3">Full-Stack Web Developer</h3>
+                        <h3 className="text-dark text-center">Full-Stack Web Developer</h3>
                     </div>
                 </div>
             </header>
