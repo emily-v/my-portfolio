@@ -47,5 +47,3 @@ ProjectCard.propTypes = {
     liveUrl: PropTypes.string,
     gifUrl: PropTypes.string
 };
-
-/*<div className="col-12 col-sm-6 col-md-4">*/

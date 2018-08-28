@@ -14,7 +14,7 @@ import '../styles/index.scss';
 import Layout from './layout.jsx';
 WebFont.load({
   google: {
-    families: ['Ubuntu:400,700', 'Lora:400,700', 'Rubik:400,700', 'Merriweather Sans:400,700', 'Roboto:400,700', 'sans-serif']
+    families: ['Merriweather Sans:400,700', 'sans-serif']
   }
 });
 

@@ -3,8 +3,6 @@ import {Consumer} from "../stores/AppContext.jsx";
 //import { Link } from "react-router-dom";
 
 //include images into your bundle
-//import rigoImage from '../../img/rigo-baby.jpg';
-//import { resume } from '../../resume/emily-vong-resume-2018.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -147,30 +145,3 @@ export class Home extends React.Component{
         );
     }
 }
-
-/*I&apos;m a quick learner looking to work on a team of developers and grow my stack building apps meant to delight customers. Positive-minded with a background in food and health, office administration and client service. */
-
-/*<section id="about" className="py-4">
-    <div className="sectionWidth">    
-        <div className="row mx-0">
-            <h4>About Me</h4>
-        </div>
-        <div className="row mx-0">
-            <div className="col-md-9 pr-md-5">
-                <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a new web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
-                <p>Through attending group coding sessions/events, following developers on Twitter and researching developement and tech trends over the past ~1 year I&apos;ve become familiar with the developer culture including how resources and new ideas are shared. I&apos;m eager to be a part of this community in a full time role, especially on a team of developers in a supportive, learning-based environment where I can hone my skills and grow my stack.</p>
-            </div>
-            <div className="col">
-                <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid "/>
-            </div>
-        </div>
-        <div className="row mx-0">
-            <h5>Education</h5>
-            <ul>
-                <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
-                <li><strong>Skillcrush E-Learning</strong>; Self-paced Break Into Tech Blueprint teaching foundations of HTML/CSS, Responsive Web Development, JavaScript and jQuery, WordPress, Git/GitHub, web domains and hosting, freelance buisness administration; <span className="text-secondary">2017-2018</span></li>
-                <li><strong>University of Minnesota</strong>; B.S. Nutrition, <span className="text-secondary">2012</span></li>
-            </ul>
-        </div>
-    </div>
-</section>*/

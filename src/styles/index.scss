@@ -12,6 +12,8 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+/*-----BODY-----*/
 .sectionWidth {
     width: 96%;
     max-width:1200px;
@@ -24,21 +26,18 @@ header {
 
 h1, h3, h4 {
     font-family: 'Merriweather Sans', sans-serif;
-    //font-weight:bold;
 }
 
 h3, h4 {
     color:#328284;
 }
 
-.introText {
-    font-size: 1.25rem;
-}
-
 p {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.1rem;
 }
+
+/*-----HEADER/NAVBAR-----*/
 
 header a:hover {
     color:#4f3558;
@@ -53,6 +52,12 @@ nav {
 nav li a {
     font-family: 'Helvetica', sans-serif;
 }
+
+.introText {
+    font-size: 1.25rem;
+}
+
+/*-----JUMBOTRON-----*/
 
 .jumbotron img {
     border: 2px solid #4f3558;
@@ -71,6 +76,8 @@ nav li a {
 .jumbotron .btn:hover{
     background-color:#725d79;
 }
+
+/*-----PROJECTS-----*/
 
 #projects, #contact {
     background-color:#e9e7e9;
@@ -104,9 +111,13 @@ nav li a {
     line-height: 0.8;
 }
 
+/*-----ABOUT-----*/
+
 .bioPic {
     max-width: 50%;
 }
+
+/*-----CONTACT-----*/
 
 #contact h5 {
     font-family: 'Helvetica', sans-serif;
@@ -124,6 +135,8 @@ nav li a {
     background-color:#4f3558;
 }
 
+/*-----FOOTER-----*/
+
 footer {
     background-color:#328284;
     font-size: 1.25rem;
@@ -135,9 +148,7 @@ footer {
     .sectionWidth {
         width: 90%;
     }
-    
-    
-    
+
 }
 
 @media only screen and (min-width: 768px){

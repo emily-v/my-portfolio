@@ -30,7 +30,6 @@ export default class Layout extends React.Component {
                     gifUrl: "https://media.giphy.com/media/WNTQowAjukSwzRYolP/giphy.gif"
                 },
                 { 
-                    //image: "https://image.ibb.co/bFUc59/music_website_recreation_screenshot.png",
                     image: "https://image.ibb.co/bXR5tU/music_website_recreation_screenshot2.png",
                     title:"'Unplugged' website recreation from PSD",
                     description: "Recreated static layout and styling of mock website from Photoshop mockup using HTML and custom CSS",
