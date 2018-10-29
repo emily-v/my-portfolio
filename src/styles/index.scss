@@ -96,15 +96,16 @@ nav li a {
 }
 
 .btnCard {
-    color:#4f3558;
+    color:white;
+    background-color:#4f3558;
     border:1px solid #4f3558;
     font-family: 'Helvetica', sans-serif;
 }
 
 .btnCard:hover {
-    color:white;
+    color:#4f3558;
     border:1px solid #4f3558;
-    background-color:#4f3558;
+    background-color:white;
 }
 
 .btnCardSmall {

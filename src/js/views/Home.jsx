@@ -24,12 +24,12 @@ export class Home extends React.Component{
                     <div className="jumbotron bg-white">
                         <div className="sectionWidth row">
                             <div className="col-md-6 text-center pl-md-0 pr-md-4">
-                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&s=4d30feeda26a687fb68098509a9a24c5&auto=format&fit=crop&w=1050&q=80" alt="hero" className="img-fluid"/>
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&s=4d30feeda26a687fb68098509a9a24c5&auto=format&fit=crop&w=1050&q=80" alt="hero" className="img-fluid shadow"/>
                             </div>
                             <div className="col px-sm-3">
                                 <div className="row">
                                     <p className="introText pt-3 pt-md-0 px-3 px-sm-0">
-                                        <span className="h4">Greetings!</span> My name is Emily, I am a new full-stack web developer based in Miami, FL. I can quickly create prototype layouts dynamically rendering content using Bootstrap and React.js, and integrate with back-end content using WordPress and PHP.
+                                        <span className="h4">Greetings!</span> My name is Emily, I am a full-stack web developer based in Miami, FL. I create professional and responsive websites with dynamic content meant to delight users and attract customers. My primary languages and tools are HTML/CSS, JavaScript, React.js, WordPress and PHP.
                                     </p>
                                     <p className="introText px-3 px-sm-0">
                                         Please view my projects and feel free to contact me with feedback, questions or interest!
@@ -61,7 +61,7 @@ export class Home extends React.Component{
                                                             description={item.description}
                                                             repoUrl={item.repoUrl}
                                                             liveUrl={item.liveUrl}
-                                                            gifUrl={item.gifUrl}
+                                                            demoUrl={item.demoUrl}
                                                         />
                                                     );
                                                 })
@@ -78,17 +78,17 @@ export class Home extends React.Component{
                             <h3 className="mb-4">About Me</h3>
                             <div className="row mx-0">
                                 <div className="col-md-9 pr-md-5">
-                                    <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a new web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
-                                    <p>Through attending group coding sessions/events, following developers on Twitter and researching developement and tech trends over the past ~1 year I&apos;ve become familiar with the developer culture including how resources and new ideas are shared. I&apos;m eager to be a part of this community in a full time role, especially on a team of developers in a supportive, learning-based environment where I can hone my skills and grow my stack.</p>
+                                    <p>After starting my professional career counseling patients and clients to improve their health through nutrition and exercise I realized I wanted to help people in a different way. In 2017 I made the nerve-racking decision to start learning to code and take my career in a new direction. As a web developer I am excited by the opportunity to use innovative tools and my own creativity to build and contribute to solutions meant to improve the quality of life of its users in some way.</p>
+                                    <p>Through attending group coding sessions/events, following developers on Twitter and researching developement and tech trends over the past 1+ years I&apos;ve become familiar with the developer culture including how resources and new ideas are shared. I&apos;m eager to be a part of this community in a full time role, especially on a team of developers in a supportive, learning-based environment where I can hone my skills and grow my stack.</p>
                                 </div>
                                 <div className="col text-center">
-                                    <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid"/>
+                                    <img src="https://image.ibb.co/cVMqv9/Emily_pic.jpg" alt="headshot" className="bioPic img-fluid shadow"/>
                                 </div>
                             </div>
                             <div className="row mx-0">
                                 <h4>Education</h4>
                                 <ul>
-                                    <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, AJAX, MVC, ORM, Git <span className="text-secondary">2018</span></li>
+                                    <li><strong>Miami-Dade College</strong> and <strong>4Geeks Academy</strong>; 14-week (260+ hours) project-based software development program teaching HTML5, CSS3, SASS, React.js, Webpack, PHP, Wordpress, RESTful API&apos;s, MySQL, HTTP Architecture, MVC, Git <span className="text-secondary">2018</span></li>
                                     <li><strong>Skillcrush E-Learning</strong>; Self-paced Break Into Tech Blueprint teaching foundations of HTML/CSS, Responsive Web Development, JavaScript and jQuery, WordPress, Git/GitHub, web domains and hosting, freelance buisness administration; <span className="text-secondary">2017-2018</span></li>
                                     <li><strong>University of Minnesota</strong>; B.S. Nutrition, <span className="text-secondary">2012</span></li>
                                 </ul>

@@ -10,7 +10,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 function ProjectCard(props){
     return (
         <div className="projectCard col-sm-6 col-lg-4">
-            <div className="card mx-3 mb-3">
+            <div className="card shadow mx-3 mb-3">
                 <img className="card-img-top projectFeaturedImage p-1" src={props.image}/>
                 <div className="card-body">
                     <h5 className="card-title">
@@ -25,10 +25,7 @@ function ProjectCard(props){
                             (props.liveUrl == null) ? <a></a> : <a role="button" className="btn btnCard ml-auto" target="_blank" rel="noopener noreferrer" href={props.liveUrl}>view live</a>
                         }
                         {    
-                            (props.gifUrl == null) ? <a></a> : <a role="button" className="btn btnCard ml-auto" target="_blank" rel="noopener noreferrer" href={props.gifUrl}>view gif</a>
-                        }
-                        {    
-                            (props.liveUrl == null && props.gifUrl == null) ? <a role="button" className="btn btnCard btnCardSmall disabled ml-auto" href=""><small>coming<br/>soon!</small></a> : <a></a>
+                            (props.demoUrl == null) ? <a></a> : <a role="button" className="btn btnCard ml-auto" target="_blank" rel="noopener noreferrer" href={props.demoUrl}>view demo</a>
                         }
                     </div>
                 </div>
@@ -45,5 +42,5 @@ ProjectCard.propTypes = {
     description: PropTypes.string,
     repoUrl: PropTypes.string,
     liveUrl: PropTypes.string,
-    gifUrl: PropTypes.string
+    demoUrl: PropTypes.string
 };
