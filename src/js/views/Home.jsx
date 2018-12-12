@@ -40,6 +40,7 @@ export class Home extends React.Component {
 										users and attract customers. My primary
 										languages and tools are HTML/CSS,
 										JavaScript, React.js, WordPress and PHP.
+										test
 									</p>
 									<p className="introText px-3 px-sm-0">
 										Please view my projects and feel free to
