@@ -89,7 +89,11 @@ export default class Layout extends React.Component {
 				<BrowserRouter>
 					<Switch>
 						<Provider value={{ state: this.state }}>
-							<Route exact path="/" component={Home} />
+							<Route
+								exact
+								path="/my-portfolio/"
+								component={Home}
+							/>
 						</Provider>
 					</Switch>
 				</BrowserRouter>
